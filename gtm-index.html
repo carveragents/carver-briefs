@@ -15,9 +15,9 @@
   --bg3:     #2c2c2c;
   --bg4:     #333333;
   --white:   #ffffff;
-  --off:     #fafafa;
-  --dim:     #e8e8e8;
-  --muted:   #b7b7b7;
+  --off:     #ffffff;
+  --dim:     #f0f0f0;
+  --muted:   #cccccc;
   --border:  rgba(200,241,53,0.18);
   --border2: rgba(255,255,255,0.10);
   --radius:  8px;
@@ -82,7 +82,7 @@ a:hover{opacity:.9}
 .detail-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
 .detail-card{background:var(--bg3);border:1px solid var(--border2);border-radius:10px;padding:18px}
 .detail-title{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
-.detail-copy{font-size:15px;color:var(--dim);line-height:1.7}
+.detail-copy{font-size:15px;color:var(--off);line-height:1.7}
 .source-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
 .source-pill{display:inline-flex;align-items:center;padding:8px 12px;border-radius:100px;border:1px solid var(--border2);background:transparent;color:var(--dim);font-size:13px}
 .table-wrap{overflow:auto;max-height:420px;overflow-y:auto;border-radius:0 0 8px 8px}
@@ -93,7 +93,7 @@ a:hover{opacity:.9}
 .briefings-table thead th{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:8px 14px;text-align:left;font-weight:400;position:sticky;top:0;background:var(--bg3);z-index:2;border-bottom:1px solid var(--border2)}
 .briefings-table tbody tr{background:var(--bg2);transition:background .15s}
 .briefings-table tbody tr:hover{background:var(--bg3)}
-.briefings-table td{padding:10px 14px;vertical-align:top;font-size:14px;color:var(--dim);line-height:1.5}
+.briefings-table td{padding:10px 14px;vertical-align:top;font-size:14px;color:var(--off);line-height:1.5}
 .briefings-table td:first-child{border-radius:var(--radius) 0 0 var(--radius)}
 .briefings-table td:last-child{border-radius:0 var(--radius) var(--radius) 0}
 .tag{display:inline-block;padding:4px 10px;border-radius:4px;font-size:10px;font-weight:800;font-family:'Space Mono',monospace;letter-spacing:.06em;text-transform:uppercase;background:var(--lime);color:var(--bg)}
@@ -132,7 +132,7 @@ a:hover{opacity:.9}
   <div class="hero-eye">Carver Intelligence</div>
   <h1>Carver <em>GTM</em> Briefs</h1>
   <div class="hero-subtitle">Turn your consumer lending dataset into go/no-go GTM answers — state by state.</div>
-  <p class="hero-sub">This page keeps the executive-brief structure of the original while turning your consumer lending spreadsheet into interactive GTM widgets. It is designed to answer a harder question than “what is allowed?” — <strong>where is a lending product commercially and operationally workable right now?</strong></p>
+  <p class="hero-sub">Carver turns regulatory intelligence data into go/no-go GTM answers — state by state, product by product. Pick a state and loan type to get a directional read on licensing overhead, rate cap exposure, online lending treatment, and enforcement posture. <strong>Not just what is permitted. Where is it workable right now, and what does it cost to find out the hard way?</strong></p>
 </div>
 <div class="interest-bar">
   <div class="interest-label">I want to explore —</div>
@@ -140,7 +140,7 @@ a:hover{opacity:.9}
     <button class="chip" onclick="focusSection('market', this)">Market Entry</button>
     <button class="chip" onclick="focusSection('license', this)">License Complexity</button>
     <button class="chip" onclick="focusSection('online', this)">Online Lending</button>
-    <button class="chip" onclick="focusSection('compression', this)">36% Cap Tracker</button>
+    <button class="chip" onclick="focusSection('compression', this)">Rate Cap Pressure</button>
     <button class="chip" onclick="focusSection('watchlist', this)">Watchlist</button>
     <button class="chip" onclick="focusSection('enforcement', this)">Enforcement</button>
   </div>
@@ -149,7 +149,7 @@ a:hover{opacity:.9}
   <a href="#market" class="nav-pill active">A &nbsp; Market Entry</a>
   <a href="#license" class="nav-pill">B &nbsp; License Complexity</a>
   <a href="#online" class="nav-pill">C &nbsp; Online Lending</a>
-  <a href="#compression" class="nav-pill">D &nbsp; 36% Cap Tracker</a>
+  <a href="#compression" class="nav-pill">D &nbsp; Rate Cap Pressure</a>
   <a href="#watchlist" class="nav-pill">E &nbsp; Watchlist</a>
   <a href="#enforcement" class="nav-pill">F &nbsp; Enforcement</a>
 </nav>
