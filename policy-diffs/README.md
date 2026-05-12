@@ -1,6 +1,6 @@
 # Halyard Pay · Policy Updates
 
-A self-contained demo of an AI compliance agent reviewing **five Mastercard SPME releases** (June 2022 → May 2025) and proposing corresponding updates to a hypothetical payment processor's internal policies.
+A [self-contained demo](https://www.youtube.com/watch?v=zaXRuDXCYzY) of an AI compliance agent reviewing **five Mastercard SPME releases** (June 2022 → May 2025) and proposing corresponding updates to a hypothetical payment processor's internal policies.
 
 Powered by [Carver Agents](https://carveragents.ai). Halyard Pay is a fictional company; all policies shown are synthetic baselines.
 
