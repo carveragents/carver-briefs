@@ -23,7 +23,7 @@ The site is fully offline-capable; no server required. Bundled inside:
 
 ### 2. Five-minute video walkthrough
 
-Watch **[`demo-video.mp4`](./demo-video.mp4)** for a narrated tour of the site.
+Watch **[self-contained demo](https://www.youtube.com/watch?v=zaXRuDXCYzY)** for a narrated tour of the site.
 
 The video covers the overview, timeline, two verified change examples (§7.2 Ongoing Monitoring, §2.2.3 Service Provider Compliance), and one low-confidence example where the agent flags the extraction for human verification (§8.6.5).
 
